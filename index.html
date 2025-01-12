@@ -26,7 +26,6 @@
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                     aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
@@ -58,28 +57,31 @@
     <main>
         <!-- video presentacion -->
         <section>
-            <h1 class="pres">PRESENTACIÓN</h1>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/mkggXE5e2yk?si=im5y6TfJzUk7rDDZ"
+            <h1 class="pres pres-flex">PRESENTACIÓN</h1>
+            <iframe class="video-pres" width="800" height="315" src="https://www.youtube.com/embed/mkggXE5e2yk?si=im5y6TfJzUk7rDDZ"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
         <!-- sobre nosotros -->
-        <section>
-            <h2>NOSOTROS</h2>
-            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla adipisci accusamus, ex perspiciatis sit
+        <section class="container">
+            <div class="box">
+                <h2>NOSOTROS</h2>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla adipisci accusamus, ex perspiciatis sit
                 obcaecati exercitationem dignissimos fugit. Recusandae doloribus velit deserunt odit obcaecati sed
                 repudiandae veritatis est neque reiciendis.</P>
-        </section>
+            </div>
+        
         <!-- artistas destacados -->
-        <section class="destacados">
-            <h2>ARTISTAS DESTACADOS</h2>
-            <img src="img/unproven-press.jpg" class="img-dest" alt="">
-            <p>UNPROVEN</p>
-            <img src="img/predator-press.jpg" class="img-dest" alt="">
-            <p>PREDATOR</p>
-            <img src="img/anime-press.jpg" class="img-dest" alt="">
-            <p>ANIME</p>
+            <div class="destacados box"> 
+                <h3 class="destacados-art">ARTISTAS DESTACADOS</h3>
+                <img src="img/unproven-press.jpg" class="img-dest" alt="">
+                <p>UNPROVEN</p>
+                <img src="img/predator-press.jpg" class="img-dest" alt="">
+                <p>PREDATOR</p>
+                <img src="img/anime-press.jpg" class="img-dest" alt="">
+                <p>ANIME</p>
+            </div>
         </section>
     </main>
 
@@ -87,7 +89,7 @@
     <footer class="pie-pagina">
         <div class="grupo-1">
             <div class="box">
-                <h5>SÍGUENOS</h5>
+                <h4>SÍGUENOS</h4>
                 <ul class="social-links">
                     <li>
                         <a href="https://www.facebook.com/miempresa" target="_blank">Facebook</a>

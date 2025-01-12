@@ -5,7 +5,7 @@ header{
     text-align:center ;
     
 }
-
+/* navbar */
 .navbar{
     background-color: white;
     height: 80px;
@@ -58,12 +58,38 @@ header{
     ;
 }
 
+/* artistas destacados */
 .img-dest{
-    width: 250px;
+    width: 200px;
 }
 
-.destacados{
-    text-align:center ;
+.destacados-art{
+    background-color: coral;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* diseño index */
+
+
+.pres-flez{
+    padding: 5px;
+    display: flex;
+}
+
+.container{
+    padding: 5px;
+    display: flex;
+    
+}
+
+.box{
+    margin: 15px;
+}
+
+@media (max-width: 600px) {
+    .video-pres{
+        width: auto;
+    }
 }
 
 .copy{
@@ -102,7 +128,7 @@ main section p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-section h3{
+.meses-caledario{
     color: blueviolet;
     text-decoration: overline;
 }
@@ -158,3 +184,4 @@ main{
 main h1{
     text-align: center;    
 }
+
