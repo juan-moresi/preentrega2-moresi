@@ -92,6 +92,14 @@ header{
     }
 }
 
+
+/* diseño calendario */
+
+.box-calendario{
+    margin: 15px;
+    text-align: center;
+}
+
 .copy{
     text-align: center;
 }
