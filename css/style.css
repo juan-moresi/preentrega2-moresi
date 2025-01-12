@@ -146,11 +146,7 @@ section p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-form{
-    padding: 50px 55px;
-    text-align: center;
-    width: 340px;
-}
+
 .input-group{
     display: flex;
     flex-direction: column;
