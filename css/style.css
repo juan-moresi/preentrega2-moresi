@@ -204,3 +204,7 @@ main h1{
     align-items: center;
     text-align: center;
 }
+
+.social-links{
+    display: flex;
+}
