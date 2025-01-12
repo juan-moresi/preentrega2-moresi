@@ -57,54 +57,33 @@
     <main>
         <h1>BOOKING REQUEST</h1>
     </main>
-    <form action="/submit" method="post">
-
-        <div class="input-group">
-            <label for="nombre">Nombre completo</label>
-            <input type="text" name="nombre" id="nombre">
-
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email">
-
-            <label for="pais">País</label>
-            <select name="" id="">
-                <option value="">Argentina</option>
-                <option value="">Chile</option>
-                <option value="">Uruguay</option>
-                <option value="">Brasil</option>
-                <option value="">Peru</option>
+    
+    <div class="form-container">
+        <form class="form" action="/submit" method="post">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</la>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Seleccionar Artista</option>
+                <option value="1">UNPROVEN</option>
+                <option value="2">PREDATOR</option>
+                <option value="3">ANIME</option>
             </select>
-
-            <label for="artista">Artista</label>
-            <select name="" id="">
-                <option value="">UNPROVEN</option>
-                <option value="">PREDATOR</option>
-                <option value="">ANIME</option>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>País</option>
+                <option value="1">Argentina</option>
+                <option value="2">Brasil</option>
+                <option value="3">Chile</option>
+                <option value="">Perú</opt>
             </select>
-
-            <label for="mensaje">Mensaje</label>
-            <textarea name="mensaje" id="mensaje"></textarea>
-
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
             <input type="submit" value="Enviar">
-        </div>
-    </form>
-
-    <form action="">
-        <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          </div>
-          <select class="form-select" aria-label="Default select example">
-            <option selected>Seleccionar Artista</option>
-            <option value="1">UNPROVEN</option>
-            <option value="2">PREDATOR</option>
-            <option value="3">ANIME</option>
-          </select>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-    </form>
+        </form>
+    </div>
 
     <!-- footer -->
     <footer class="pie-pagina">
